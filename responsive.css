@@ -4,6 +4,10 @@
     .navbar-brand img {
         width: 43px;
     }
+    /* Class for adding left padding */
+.netflix-padding-left {
+    padding-left: 10px;
+}
 
     /* Show the dropdown on small devices */
     .netflix-dropdown-box {
@@ -17,24 +21,7 @@
         color: white;
         padding: 5px ;
     }
-}
-
-/* Media query targeting screens larger than 767.99 pixels (medium and large screens) */
-@media (min-width: 768px) {
-    /* Hide the dropdown on medium and large devices */
-    .netflix-dropdown-box {
-        display: none !important; /* Make sure it overrides any other rules */
-    }
-}
-
-
-
-/* Class for adding left padding */
-.netflix-padding-left {
-    padding-left: 10px;
-}
-
-/* Class for adding right padding */
+    /* Class for adding right padding */
 .netflix-padding-right {
     padding-right: 10px;
 }
@@ -43,5 +30,12 @@
 .netflix-dropdown-box {
     display: block; 
 }
+
+
+}
+
+
+
+
 
 
