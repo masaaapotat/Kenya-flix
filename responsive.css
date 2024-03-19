@@ -9,6 +9,9 @@
     .netflix-dropdown-box {
         display: block !important; /* Make sure it overrides any other rules */
     }
+    .netflix-nav{
+        display: none;
+    }
 }
 
 /* Media query targeting screens larger than 767.99 pixels (medium and large screens) */
@@ -35,3 +38,4 @@
 .netflix-dropdown-box {
     display: block; 
 }
+

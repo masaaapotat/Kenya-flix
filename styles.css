@@ -3,6 +3,7 @@ body{
     overflow-x: hidden;
     position: relative;
 }
+
 .netflix-padding-left{
     padding-left: 57px;
 
@@ -13,8 +14,9 @@ body{
 }
 .netflix-navbar{
     position: fixed;
-    width: 100px;
+    width: 100vw;
     z-index: 1000;
+   
 }
 .netflix-row{
     width: 100%;
@@ -38,6 +40,7 @@ body{
     background-color: hsla(0, 3%, 31%, 0.158);
     font-size: 9px;
     color: white;
+    margin-left: 8px ;
     border-top:3px solid white;
     margin-top: 30px;
 }
@@ -51,4 +54,26 @@ body{
     background-color:rgba(255, 255, 255, 0.145) ;
     color: white;
 
+}
+.netflix-nav {
+    display: block;
+    align-items: center;
+}
+
+.netflix-nav section {
+    display: flex; /* Use flexbox to horizontally align the buttons */
+}
+
+.netflix-nav section button {
+    margin-right: 20px; /* Add some spacing between buttons */
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.5); /* Set button text color */
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Add transition effect for smoother hover */
+}
+
+.netflix-nav section button:hover {
+    color: white; /* Change text color on hover */
 }
