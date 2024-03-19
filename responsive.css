@@ -30,6 +30,14 @@
 .netflix-dropdown-box {
     display: block; 
 }
+.fa-duatone{
+    font-size: 17px;
+    cursor: pointer;
+    padding: 5px;
+   /*  background-color: grey;
+    width: 12px;
+    height: 12px; */
+}
 
 
 }
