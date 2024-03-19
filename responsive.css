@@ -12,6 +12,11 @@
     .netflix-nav{
         display: none;
     }
+    i{
+        font-size: 12px;
+        color: white;
+        padding: 5px ;
+    }
 }
 
 /* Media query targeting screens larger than 767.99 pixels (medium and large screens) */
@@ -38,4 +43,5 @@
 .netflix-dropdown-box {
     display: block; 
 }
+
 
