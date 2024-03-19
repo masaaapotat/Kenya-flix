@@ -1,5 +1,5 @@
 body{
-    background-color: #131111;
+    background-color: #1a1919;
     overflow-x: hidden;
     position: relative;
 }
@@ -13,6 +13,7 @@ body{
     
 }
 .netflix-navbar{
+    
     position: fixed;
     width: 100vw;
     z-index: 1000;
