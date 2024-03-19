@@ -1,16 +1,22 @@
-@(max-width:767.99){
-    .navbar-brand img{
+/* Media query targeting screens small screen 767.99  */
+@media (max-width: 767.99px) {
+    /* Reduce the width of the navbar brand image */
+    .navbar-brand img {
         width: 43px;
     }
 }
-.neflix-padding-left{
-    padding-left: 10px;
 
-}
-.neflix-padding-right{
+/* Class for adding left padding */
+.netflix-padding-left {
     padding-left: 10px;
-    
 }
-.netflix-dropdown-box{
+
+/* Class for adding right padding */
+.netflix-padding-right {
+    padding-right: 10px;
+}
+
+/* Class for displaying a dropdown box */
+.netflix-dropdown-box {
     display: block;
 }
