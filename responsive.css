@@ -1,0 +1,16 @@
+@(max-width:767.99){
+    .navbar-brand img{
+        width: 43px;
+    }
+}
+.neflix-padding-left{
+    padding-left: 10px;
+
+}
+.neflix-padding-right{
+    padding-left: 10px;
+    
+}
+.netflix-dropdown-box{
+    display: block;
+}

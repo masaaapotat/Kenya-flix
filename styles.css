@@ -1,0 +1,34 @@
+body{
+    /* background-color: #131111; */
+    overflow-x: hidden;
+    position: relative;
+}
+.netflix-padding-left{
+    padding-left: 57px;
+
+}
+.netflix-padding-right{
+    padding-right: 57px;
+    
+}
+.netflix-navbar{
+    position: fixed;
+    width: 100px;
+}
+.netflix-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.netflix-dropdown-box{
+    /* display: none ; */
+}
+.netflix-dropdown{
+    background-color: transparent;
+    color: white;
+    font-size: 9px;
+}
