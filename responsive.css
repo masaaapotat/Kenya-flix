@@ -1,10 +1,25 @@
-/* Media query targeting screens small screen 767.99  */
+/* Media query targeting screens up to 767.99 pixels (small screens) */
 @media (max-width: 767.99px) {
     /* Reduce the width of the navbar brand image */
     .navbar-brand img {
         width: 43px;
     }
+
+    /* Show the dropdown on small devices */
+    .netflix-dropdown-box {
+        display: block !important; /* Make sure it overrides any other rules */
+    }
 }
+
+/* Media query targeting screens larger than 767.99 pixels (medium and large screens) */
+@media (min-width: 768px) {
+    /* Hide the dropdown on medium and large devices */
+    .netflix-dropdown-box {
+        display: none !important; /* Make sure it overrides any other rules */
+    }
+}
+
+
 
 /* Class for adding left padding */
 .netflix-padding-left {
@@ -18,5 +33,5 @@
 
 /* Class for displaying a dropdown box */
 .netflix-dropdown-box {
-    display: block;
+    display: block; 
 }

@@ -1,5 +1,5 @@
 body{
-    /* background-color: #131111; */
+    background-color: #131111;
     overflow-x: hidden;
     position: relative;
 }
@@ -14,6 +14,7 @@ body{
 .netflix-navbar{
     position: fixed;
     width: 100px;
+    z-index: 1000;
 }
 .netflix-row{
     width: 100%;
@@ -25,10 +26,29 @@ body{
     width: 100px;
 }
 .netflix-dropdown-box{
-    /* display: none ; */
+    display: none ;
 }
 .netflix-dropdown{
     background-color: transparent;
     color: white;
     font-size: 9px;
+    border: none;
+}
+.netflix-dropdown-box .dropdown-menu{
+    background-color: hsla(0, 3%, 31%, 0.158);
+    font-size: 9px;
+    color: white;
+    border-top:3px solid white;
+    margin-top: 30px;
+}
+.netflix-dropdown-box .dropdown-menu .dropdown-item{
+    color: rgba(255, 238, 238, 0.765);
+    width: 250px;
+    font-size: 15px;
+    padding: 20px;
+}
+.netflix-dropdown-box .dropdown-menu .dropdown-item:hover{
+    background-color:rgba(255, 255, 255, 0.145) ;
+    color: white;
+
 }
