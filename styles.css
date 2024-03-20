@@ -124,3 +124,16 @@ i{
     z-index: 100;
     display: flex;
 }
+.card{
+    width: 250px;
+    background-color:#1a1919;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    margin: 3px;
+    position: relative;
+}
+.card:hover{
+    transform: scale(2,2);
+    z-index: 10;
+
+}

@@ -43,6 +43,9 @@
     font-size: 1px;
     width: max-content;
 }
+.card{
+    width: 150px;
+}
 /* .fa-duatone{
     font-size: 17px;
     cursor: pointer;
