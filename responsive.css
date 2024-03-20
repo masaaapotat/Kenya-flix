@@ -39,6 +39,10 @@
    
     cursor: pointer;
 }
+.button{
+    font-size: 1px;
+    width: max-content;
+}
 /* .fa-duatone{
     font-size: 17px;
     cursor: pointer;

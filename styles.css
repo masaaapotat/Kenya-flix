@@ -116,3 +116,11 @@ i{
 .fa-circle-info{
     padding: 0px;
 }
+
+.netflix-home-video .content{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+}
