@@ -133,7 +133,7 @@ i{
     position: relative;
 }
 .card:hover{
-    transform: scale(2,2);
+    transform: scale(1,2);
     z-index: 10;
 
 }
