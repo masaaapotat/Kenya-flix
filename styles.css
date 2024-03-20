@@ -106,3 +106,13 @@ i{
 .netflix-home-video video{
     width: 100%;
 }
+
+/* play icon */
+.fa-play{
+    color: black;
+    padding: 0px;
+}
+/* more info icon */
+.fa-circle-info{
+    padding: 0px;
+}
