@@ -1,5 +1,5 @@
 body{
-    background-color: #1a1919;
+    /* background-color: #1a1919; */
     overflow-x: hidden;
     position: relative;
 }
@@ -136,4 +136,7 @@ i{
     transform: scale(2,2);
     z-index: 10;
 
+}
+.netflix-card-text{
+    font-size: 12px;
 }

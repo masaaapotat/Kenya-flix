@@ -46,6 +46,12 @@
 .card{
     width: 150px;
 }
+.slider1{
+    top: 250px;
+    margin-left: 0px;
+}
+}
+
 /* .fa-duatone{
     font-size: 17px;
     cursor: pointer;
@@ -56,7 +62,7 @@
 
 
 
-}
+
 
 
 
