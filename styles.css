@@ -83,9 +83,26 @@ i{
     color: white;
     padding: 5px 20px;
 }
+.netflix-profile{
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 4px;
+    margin-left:20px ;
+    cursor: pointer;
+}
 .fa-duatone{
     font-size: 30px;
     cursor: pointer;
     padding: 5px;
-    /* background-color: gr; */
+    /* background-color: grey; */
+}
+/* netflix video */
+.netflix-home-video{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+.netflix-home-video video{
+    width: 100%;
 }
