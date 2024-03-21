@@ -66,17 +66,22 @@ body{
 }
 
 .netflix-nav section button {
-    margin-right: 20px; /* Add some spacing between buttons */
-    background-color: transparent;
-    color: rgba(255, 255, 255, 0.5); /* Set button text color */
+    margin-right: 20px; 
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1)); /* Apply linear gradient for better visibility */
+    color: rgba(255, 255, 255, 0.8); /* Lighter text color for better visibility */
     border: none;
-    font-size: 17px;
+    font-size: 18px; 
     cursor: pointer;
-    transition: color 0.3s ease; /* Add transition effect for smoother hover */
+    transition: color 0.3s ease; 
 }
 
 .netflix-nav section button:hover {
     color: white; /* Change text color on hover */
+}
+
+
+.netflix-nav section button:hover {
+    color: rgb(235, 8, 8); /* Change text color on hover */
 }
 i{
     font-size: 20px;
@@ -143,7 +148,12 @@ i{
 .footer {
     margin-top: 50px;
     margin-bottom: 100px;
+    padding: 20px; 
+    background-color: #333; 
+    color: white; 
+    font-size: 18px; 
 }
+
 
 ul {
     list-style: none;
@@ -162,14 +172,14 @@ ul li a:hover {
     color: white;
 }
 
-.service-btn {
+/* .service-btn {
     background-color: transparent;
     margin-left: 30px;
     color: rgba(255, 255, 255, 0.367);
     border: 1px solid rgba(255, 255, 255, 0.367);
     font-size: 15px;
     font-weight: 100;
-}
+} */
 
 .copy-right {
     font-size: 15px;
@@ -177,3 +187,73 @@ ul li a:hover {
     color: rgb(249, 14, 14);
     margin-left: 28px;
 }
+/* styling the contact form */
+/* Contact Form Styling */
+#contact form {
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 8px; 
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+/* Form Control Styling */
+#contact form .form-control {
+    background-color: transparent; 
+    border: none; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+    color: white; 
+    padding-left: 18px; 
+    margin-bottom: 20px; 
+}
+
+/* Adjust height of input */
+#contact form input.form-control {
+    height: 56px; 
+}
+
+/* Submit Button Styling */
+#contact form button.btn {
+    height: 56px; 
+    color: white; 
+    background-color: #6c757d; /* Button background color */
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+/* Button Hover Styling */
+#contact form button.btn:hover {
+    background-color: #495057;
+}
+/* Styling for h1 tag */
+.intro h1 {
+    color: white; 
+    font-size: 32px; 
+    font-weight: bold; 
+    margin-bottom: 20px;
+}
+
+/* Styling for p tag */
+.intro p {
+    color: rgba(255, 255, 255, 0.8); /* Set text color to off-white */
+    font-size: 18px; 
+    line-height: 1.5;
+    margin-bottom: 20px; 
+}
+/* Navigation Links Styling */
+.navbar-nav li.nav-item {
+    margin-right: 20px; /* Add some right margin for spacing between links */
+}
+
+.navbar-nav li.nav-item a.nav-link {
+    color: white; 
+    font-size: 18px; 
+    text-transform: uppercase; 
+    transition: color 0.3s ease;
+}
+
+.navbar-nav li.nav-item a.nav-link:hover {
+    color: red; 
+}
+
