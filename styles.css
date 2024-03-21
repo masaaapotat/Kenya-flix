@@ -257,3 +257,86 @@ ul li a:hover {
     color: red; 
 }
 
+/* Modal background styling */
+.modal-content {
+    background-color: #000; /* Black background color */
+    color: #fff; /* Text color */
+}
+
+/* Form styling */
+.modal-body form {
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+.modal-body form label {
+    font-weight: bold;
+}
+
+/* Input field styling */
+.modal-body form .form-control {
+    margin-bottom: 15px;
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Textarea styling */
+.modal-body form textarea {
+    margin-bottom: 15px;
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+}
+
+/* Checkbox styling */
+.modal-body form .form-check-input {
+    margin-right: 5px;
+}
+
+/* Submit button styling */
+.modal-body form .btn-primary {
+    margin-top: 15px;
+    width: 100%;
+    background-color: #f02631b7; /* Adjust button background color */
+    color: #fff; /* Adjust button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Submit button hover effect */
+.modal-body form .btn-primary:hover {
+    background-color: #9b61635a; /* Adjust hover background color */
+}
+
+/* Social links styling */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links h5 {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #f02631b7; /* Adjust button background color */
+    color: #fff; /* Adjust button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Social links hover effect */
+.social-links a:hover {
+    background-color: #9b61635a; /* Adjust hover background color */
+}
