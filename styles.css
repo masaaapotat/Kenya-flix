@@ -13,12 +13,12 @@ body{
     
 }
 .netflix-navbar{
-    
     position: fixed;
     width: 100vw;
     z-index: 1000;
-   
+    background-color: rgba(0, 0, 0, 0.9); /* Adjust the opacity or color here */
 }
+
 .netflix-row{
     width: 100%;
     display: flex;
