@@ -32,4 +32,30 @@ body{
 .form-control{
     box-shadow: none !important;
 }
-/
+/* features css */
+/* styles.css */
+/* Custom styling for the accordion */
+.accordion-item {
+    background: linear-gradient(to bottom, #000000, #333333); /* Black to dark grey gradient */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    margin-bottom: 10; /* Remove margin between accordion items */
+}
+.accordion-button {
+    color: #ffffff; /* White text color for accordion buttons */
+    background-color: #333333; /* Dark grey background color for accordion buttons */
+    margin-bottom: 0; /* Remove margin between accordion buttons */
+}
+.accordion-button:hover {
+    background-color: #555555; /* Darker grey background color on hover */
+}
+.accordion-body {
+    border-top: 1px solid #666666; /* Add border at the top of the accordion body */
+    padding: 5; /* Remove padding for content */
+    margin-top: 5; /* Remove margin at the top of the accordion body */
+    color: #ffffff; /* White text color for accordion body */
+}
+.faq-header {
+    text-align: center;
+    color: #ffffff; /* White text color */
+}
